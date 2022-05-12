@@ -7,28 +7,28 @@
     <title>Document</title>
 </head>
 <body>
-    <fieldset>
+     <fieldset>
         <legend>Cadastro para Currículo</legend>
        
-        <form>
+        <form><!--method="Post"-->
     
           <p><h3>Dados pessoais:</h3></p>
-            <label for="name" aria-placeholder="escreva seu nome">Primeiro nome:</label>
-            <input type="text" name="1nome" id="1nome">
+            <label for="name">Primeiro nome:</label><br>
+            <input type="text" name="1nome" id="1nome" placeholder="Ex. João"><br>
     
-            <label for="name">Sobrenome</label>
-            <input type="text" name="2nome" id="2nome"><br><br>
+            <label for="name">Sobrenome</label><br>
+            <input type="text" name="2nome" id="2nome" placeholder="Ex. Dias"><br><br>
     
     
             <label for="e-mail">Informe seu endereço de e-mail:</label><br>
-            <input type="email" name="email" id="email"><br><br>
+            <input type="e-mail" name="email" id="email" required><br><br>
     
             <label for="data">Informe a sua data de nascimento</label><br>
             <input type="date" name="data" id="date"><br><br>
     
     
             <label for="name">Crie uma senha:</label><br>
-            <input type="password" name="senha" id="senha"><br><br>
+            <input type="password" name="senha" id="senha" required><br><br>
     
             <label for="name">UF:</label><br>
             <select name="uf" id="uf">
@@ -100,6 +100,6 @@
     
         </form>
     
-      </fieldset>     
+      </fieldset>       
 </body>
 </html>
